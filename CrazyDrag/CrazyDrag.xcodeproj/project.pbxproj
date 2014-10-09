@@ -21,6 +21,8 @@
 		23CDABC317E4A3CB00DEB8D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CDABA517E4A3CA00DEB8D0 /* UIKit.framework */; };
 		23CDABCB17E4A3CB00DEB8D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23CDABC917E4A3CB00DEB8D0 /* InfoPlist.strings */; };
 		23CDABCD17E4A3CB00DEB8D0 /* CrazyDragTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CDABCC17E4A3CB00DEB8D0 /* CrazyDragTests.m */; };
+		5FBFF12A19E6D83F008FCD6F /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBFF12819E6D83F008FCD6F /* AboutViewController.m */; };
+		5FBFF12B19E6D83F008FCD6F /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FBFF12919E6D83F008FCD6F /* AboutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		23CDABC817E4A3CB00DEB8D0 /* CrazyDragTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrazyDragTests-Info.plist"; sourceTree = "<group>"; };
 		23CDABCA17E4A3CB00DEB8D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23CDABCC17E4A3CB00DEB8D0 /* CrazyDragTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyDragTests.m; sourceTree = "<group>"; };
+		5FBFF12719E6D83F008FCD6F /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		5FBFF12819E6D83F008FCD6F /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		5FBFF12919E6D83F008FCD6F /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,9 @@
 				23CDABB717E4A3CA00DEB8D0 /* CrazyDragViewController.m */,
 				23CDABB917E4A3CA00DEB8D0 /* Images.xcassets */,
 				23CDABA817E4A3CA00DEB8D0 /* Supporting Files */,
+				5FBFF12719E6D83F008FCD6F /* AboutViewController.h */,
+				5FBFF12819E6D83F008FCD6F /* AboutViewController.m */,
+				5FBFF12919E6D83F008FCD6F /* AboutViewController.xib */,
 			);
 			path = CrazyDrag;
 			sourceTree = "<group>";
@@ -231,6 +239,7 @@
 			files = (
 				23CDABBA17E4A3CA00DEB8D0 /* Images.xcassets in Resources */,
 				23CDABAC17E4A3CA00DEB8D0 /* InfoPlist.strings in Resources */,
+				5FBFF12B19E6D83F008FCD6F /* AboutViewController.xib in Resources */,
 				23CDABB517E4A3CA00DEB8D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +261,7 @@
 			files = (
 				23CDABB217E4A3CA00DEB8D0 /* CrazyDragAppDelegate.m in Sources */,
 				23CDABAE17E4A3CA00DEB8D0 /* main.m in Sources */,
+				5FBFF12A19E6D83F008FCD6F /* AboutViewController.m in Sources */,
 				23CDABB817E4A3CA00DEB8D0 /* CrazyDragViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
