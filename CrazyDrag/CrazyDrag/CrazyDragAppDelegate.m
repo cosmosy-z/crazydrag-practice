@@ -7,12 +7,14 @@
 //
 
 #import "CrazyDragAppDelegate.h"
+#import <ShareSDK/ShareSDK.h>
 
 @implementation CrazyDragAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [ShareSDK registerApp:@"api20"]; 
     return YES;
 }
 							

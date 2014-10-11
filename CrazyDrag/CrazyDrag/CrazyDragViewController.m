@@ -7,6 +7,7 @@
 //
 
 #import "CrazyDragViewController.h"
+#import "AboutViewController.h"
 
 @interface CrazyDragViewController (){
     
@@ -24,6 +25,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *roundLabel;
 
 - (IBAction)tryAgain:(id)sender;
+- (IBAction)showInfo:(id)sender;
 
 - (IBAction)showAlert:(id)sender;
 @end
@@ -75,6 +77,12 @@
 
 - (IBAction)tryAgain:(id)sender {
     [self viewDidLoad];
+}
+
+- (IBAction)showInfo:(id)sender {
+    AboutViewController *controller = [[AboutViewController alloc]initWithNibName:@"AboutViewController" bundle:nil];
+    controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentViewController:controller animated:YES completion:nil];
 }
 
 - (IBAction)showAlert:(id)sender {
